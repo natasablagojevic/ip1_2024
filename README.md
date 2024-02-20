@@ -1,1 +1,1 @@
-# ip1_2024
+# Istrazivanje Podataka 1 (2024)
