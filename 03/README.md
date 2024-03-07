@@ -172,7 +172,7 @@ UNFIT         FIT      FIT        UNFIT
 
 - na osnovu kog atributa cu ici kroz stablo nam govori **MERA NECISTOCE**
   - mere koje mere necistocu:
-    - Ginijev indeks
+    - Ginijev indeks (0 je savrseno cisto)
     - Entropija 
     - Greska klasifikacije
 
