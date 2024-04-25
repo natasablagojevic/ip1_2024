@@ -30,7 +30,7 @@
 
 - kada imamo sliku i kada primenimo KMeans --> uradili smo kompresiju boja 
 
-# Fuzy C Means 
+# Fuzzy C Means 
 
 - stepen pripadnosti  ~ [0, 1] 
 - imamo soft labele -> brojevi koji su stepeni pripadnosti 
