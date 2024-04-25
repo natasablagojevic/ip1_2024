@@ -25,4 +25,12 @@
 - gde postavljamo centroide
     - bolje je da ih stavimo daleko, nego da ih stavimo jedne pored drugih
     - brze cemo iskonvergirati, ako inicijalno izaberemo sto dalje centroide 
-    - 
+    
+- podelimo onaj klaster koji je veci ili koji ima veci SSE 
+
+- kada imamo sliku i kada primenimo KMeans --> uradili smo kompresiju boja 
+
+# Fuzy C Means 
+
+- stepen pripadnosti  ~ [0, 1] 
+- imamo soft labele -> brojevi koji su stepeni pripadnosti 
