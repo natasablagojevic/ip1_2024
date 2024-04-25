@@ -34,3 +34,5 @@
 
 - stepen pripadnosti  ~ [0, 1] 
 - imamo soft labele -> brojevi koji su stepeni pripadnosti 
+
+- 
