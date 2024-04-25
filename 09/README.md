@@ -34,5 +34,8 @@
 
 - stepen pripadnosti  ~ [0, 1] 
 - imamo soft labele -> brojevi koji su stepeni pripadnosti 
+- soft labele - stepen pripadnosti tom klasteru
 
-- 
+- SSE - da rastojanje podizem na m
+    - m = 0 --> najobicniji KMeans
+    - m nesto ogromno ---> bitniju su nam mi nego rastojanja (kako povecavam m to su mi znacajniji mi (stepeni pripadnosti)) 
