@@ -21,7 +21,10 @@
         - a = b ==> SILUETA ~ 0 (sto je ovo blize nuli to je gore)
         - instance unutar klastera su blizu, instance izmedju klastera su daleko    
         - b = 0 ==> SILUETA = -1 (cim vidimo da je nesto negativno, vidimo da nesto ne valja)
-
+        - hocemo da **a** bude manji od **b**
+        - SILUETA < 0 = to znaci da 
+        - SILUETA > 0 =
+ 
 - gde postavljamo centroide
     - bolje je da ih stavimo daleko, nego da ih stavimo jedne pored drugih
     - brze cemo iskonvergirati, ako inicijalno izaberemo sto dalje centroide 
@@ -34,8 +37,17 @@
 
 - stepen pripadnosti  ~ [0, 1] 
 - imamo soft labele -> brojevi koji su stepeni pripadnosti 
+    - soft labele su ustvari stepeni pripadnosti 
 - soft labele - stepen pripadnosti tom klasteru
 
 - SSE - da rastojanje podizem na m
     - m = 0 --> najobicniji KMeans
     - m nesto ogromno ---> bitniju su nam mi nego rastojanja (kako povecavam m to su mi znacajniji mi (stepeni pripadnosti)) 
+
+- Inercija = trazimo lakat na grafiku
+    - suma kvadrata gresaka 
+
+# BisectingKmeans
+
+- delimo na koliko hocemo klastera 
+    - delimo onaj koji ima veci SSE ili koji ima vise istance
